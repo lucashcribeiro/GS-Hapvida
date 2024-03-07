@@ -1,0 +1,61 @@
+main{
+    & h1{
+        letter-spacing: 2px;
+        line-height: 1.2;
+        font-size: 3rem;
+        font-family: var(--fonte-Raleway);
+        text-align: start;
+        color: var(--cor-azul);
+        font-weight: 500;
+    }
+    & h2{
+        font-family: var(--fonte-Raleway);
+        color: var(--cor-laranja);
+        font-size: 2.1875rem;
+    }
+}
+
+.text-healthtech-azul{
+    background-color: #007fce;
+    padding: 30px;
+    line-height: 1.05;
+
+    & > .container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        & p{
+            letter-spacing: 1px;
+            color: white;
+        }
+    }
+}
+
+.text-healthtech{
+    padding: 30px;
+    line-height: 1.05;
+
+    & > .container{
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 1px;
+        gap: 25px;
+
+        & h2{
+            color:#007fce;
+        }
+    }
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 420px;
+
+    & p{
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}

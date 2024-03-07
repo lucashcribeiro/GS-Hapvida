@@ -1,0 +1,35 @@
+@import url(../index.css);
+@import url(../components-css/header.css);
+@import url(../components-css/footer.css);
+@import url(../components-css/content-page.css);
+
+section {
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+    & .container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        & .quote {
+            border-left: 3px solid gray;
+            padding: .5rem 1rem;
+            font-style: italic;
+
+        }
+    }
+}
+
+#title {
+    margin: 0 auto;
+    height: 300px;
+
+    & p{
+
+        & a{
+            text-decoration: none;
+            color: var(--cor-laranja);
+        }
+    }
+}

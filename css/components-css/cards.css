@@ -1,0 +1,27 @@
+#cards {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007fce;
+    color: white;
+  
+    & .container {
+      display: flex;
+      justify-content: space-around;
+  
+      & .card {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 1px;
+        gap: 10px;
+  
+        & img {
+          width: 50%;
+        }
+      }
+    }
+  }
